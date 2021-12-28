@@ -3,7 +3,7 @@
 - 本システムは以下の2つで構成される
   - 文章生成部
     - TOEIC の問題に即して文を生成．GPT2のストーリー生成機能に公式問題集の文を入力することで，続きの文がTOEICのTOPICに沿った文になるようにしている．
-    - GPT2 は，huggingfaceのTransformers(https://huggingface.co/transformers/)を使用している．
+    - GPT2 は，huggingfaceのTransformersを使用している．
     - 文法ミスや謎な単語が現れる点が現状(2021/4/6時点)の問題．
   - 問題生成部
     - 現状(2021/4/6時点)では，動詞の活用形問題と派生語問題を生成可能．
